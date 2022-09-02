@@ -6,14 +6,24 @@
     <meta charset="utf-8">
   </head>
   <body>
-    het binaire stelsel, je hebt het decimale stelsel, nummers 0, 1, 2, 3, 4, 5, 6, 7, 8 en 9 
-    dan heb je het binaire stelsel, het binaire stelsel gebruikt nullen en enen, de nul betekent dat de waarde niet wordt gebruikt, en bij de een wordt de waarde wel gebruikt.
-    het binaire stelsel gebruikt bits als representatie van een getal. die bits lopen op volgorde van links naar rechts en van groot naar klein.
-    bij de eerste bit als er maar 1 bit is heb je dus een 0 of een 1, als je dit toepast op het decimale stelsel kan dit een 0 of 1 zijn.
-    als je een extra bit toevoegd krijg je meer opties, die opties zijn machten van 2 dus bij een bit = 2^1 = 0 mogelijkheden
-    bij 1 bit is het 2^1 = 2 mogelijkheden, dus 0 of 1
-    bij 2 bits is het 2^2 = 4 mogelijkheden, dus 1 en 1 , 1 en 0 , 0 en 1 , 0 en 0
-    elke bit stelt het grootste getal voor in die macht van 2, dus bit 1 geeft 1 of 0
-    bit 2 geeft 2 of 0, bit 3 geeft 4 of 0, bit 4 geeft 8 of 0, hiervoor geld heel makkelijk 2^bit nummer - 1
+    het binaire stelsel, je hebt het decimale stelsel, nummers 0, 1, 2, 3, 4, 5, 6, 7, 8 en 9 waarmee we normaal rekenen.
+    Het binaire stelsel is eigenlijk heel makkelijk. Het is te vergelijken met een lamp. Een lamp kan aan en uit zijn. Als de lamp uit is wat standaard is heeft de lamp een waarde van 0.
+    En als de lamp aan gaat krijgt deze een waarde van 1. In plaats van een lamp die waarde 0 of 1 kan aannemen zitten er in een computer bits. Ze doen precies hetzelfde, maar hebben een andere naam.
+    een bit kan dus een waarde van 0 of 1 aannemen, dit betekent dat er 2 keuzes zijn die kunnen plaatsvinden, een 0 of 1. Als je nu meer bits toevoegd krijg je meer keuzes. Bij een 2e bit heb je weer twee keuzes.
+    Dus in totaal heb je dan 2 x 2 keuzes = 4. Als er meer bits worden toegevoegd moet er heel vaak 2 x 2 worden gedaan, daardoor wordt het in machten van 2 genoteerd. 
+    Een bit is dan dus 2^1, 2 bits is dus 2^2, en ga zo maar door. De computer kan dit gebruiken om getallen, en letters te maken. Om de bits te veranderen in getallen wordt de waarde van de bit gebruikt.
+    Bit 1 heeft zo een waarde van 0 of 1, als de waarde 1 aangenomen wordt representeert dit het decimale getal 1. Bij bit nummer 2 gebeurt het zelfde maar in plaats van decimaal getal 1 wordt dit decimaal getal 2.
+    Bij bit 3, als de waarde 1 aangenomen wordt is dit getal 4. Bij bit vier is dit decimaal getal 8, en ga zo maar verder. Deze getallen zijn vrij makkelijk te berekenen.
+    Zoals al eerder uitgelegd heeft bit 1 2^1 keuzes, wat hetzelfde is aan 2. En heeft een maximale decimale waarde van 1. bit twee heeft er 2^2 wat gelijk is aan 4, en een maximale decimale waarde van 2.
+    Voor het snel een makkelijk uitrekenen van het maximale decimale getal dat een bit heeft geld: maximale decimale waarde = 2^bit nummer / 2
+    De maximale waarde voor bit nummer 2 is dan 2^2 / 2 = 2. En de maximale waarde van bit nummer 3 is dan: 2^3 / 2 = 4
+    Hiermee kan de computer gaan rekenen. Stel dat je de letters een cijfer zou geven. a = 1, b = 2, c = 3, en ga zo maar verder.
+    Als een computer bijvoorbeeld de letter c wil maken moeten de bits een waarde aannemen van 3. Dit kan met twee bits. Als een bit wordt aangezet krijgt deze waarde 1, en hiermee wordt een som gemaakt.
+    
+    
+    Als voorbeeld van hoe een computer bits gebruikt. een computer moet het getal 4 maken. 
+    Dit kan de computer doen door 3 bits achter elkaar te zetten. Bij de meest linkse bit wordt de waarde 1 aangenomen, bij bit 2 en 3 zijn de waardes 0.
+    Met de bits kan je verschillende getallen maken, bijvoorbeeld met 2 bits kan je maximaal een getal van 3 maken. De meest linker bit is dan bit 2 en die heeft een maximale waarde van 2.
+    dus die bit wordt geactiveert, en
   </body>
 </html>
