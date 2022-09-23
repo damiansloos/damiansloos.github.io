@@ -1,7 +1,6 @@
 /* comments beginnen met een "/*" en eindigen met het sterretje eerst en de / als laatst * */
-#1 {
+ol {
+    text-align: center;
     color: green;
 }
-p1 {
-    color: black;
-}
+
