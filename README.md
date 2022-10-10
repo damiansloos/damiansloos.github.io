@@ -1,2 +1,5 @@
 # damiansloos.github.io
-informatica opdr
+informatica opdr <br>
+<br>
+Link naar de juiste site: <br>
+https://damiansloos.github.io/html-code/index.html
