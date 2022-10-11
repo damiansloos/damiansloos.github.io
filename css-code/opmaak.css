@@ -26,8 +26,13 @@ li a:hover {
 }
 
 
+
+
 h1 {
     text-align: left;
     color: darkgreen;
 }
 
+h2 {
+  text-align: left;
+  color: darkred;
