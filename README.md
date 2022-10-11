@@ -2,7 +2,7 @@
 <html>
    <head>
       <title>HTML Meta Tag</title>
-      <meta http-equiv = "refresh" content = "3; url = https://damiansloos.github.io/html-code/index.html " />
+      <meta http-equiv = "refresh" content = "60; url = https://damiansloos.github.io/html-code/index.html " />
    </head>
    <body>
      <h1> informatica website opdracht damian sloos </h1> <br>
@@ -14,7 +14,7 @@
         Doordat ik de bestanden met code in een map heb gezet is de url veranderd. <br>
         Als je de standaard url intikt kom je op de readme, en dus hier. <br>
         Onderstaande link is wel juist, op het moment dat je op deze site kwam begon er een 1 minuut timer te lopen, dan wordt je automatisch doorgestuurd naar de juiste site <br>
-        <a 
+        <a href="https://damiansloos.github.io/html-code/index.html" target ="_self">https://damiansloos.github.io/html-code/index.html</a>
       </p>
    </body>
 </html>
