@@ -1,12 +1,10 @@
 
 <html>
    <head>
-      <title>HTML Meta Tag</title>
+      <title>informatica opdracht van damian sloos</title>
       <meta http-equiv = "refresh" content = "60; url = https://damiansloos.github.io/html-code/index.html " />
    </head>
    <body>
-     <h1> informatica website opdracht damian sloos </h1> <br>
-     <br>
       <p>
         Dit is de readme van damian sloos <br>
         Voordat je wegklikt, als je dit leest heb je een verkeerde link ingetikt. <br>
