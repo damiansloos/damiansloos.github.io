@@ -2,7 +2,7 @@
 <html>
    <head>
       <title>informatica opdracht van damian sloos</title>
-      <meta http-equiv = "refresh" content = "60; url = https://damiansloos.github.io/html-code/index.html " />
+      <meta http-equiv = "refresh" content = "45; url = https://damiansloos.github.io/html-code/index.html " />
    </head>
    <body>
       <p>
