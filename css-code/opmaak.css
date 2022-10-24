@@ -37,18 +37,3 @@ h2 {
   color: rgb(255,0,0);
 }
 
-p a {
-  color: darkgreen;
-}
-
-p a:hover {
-  color: darkblue;
-}
-
-p a:visited {
-  color: purple;
-}
-
-p a:active {
-  color: cyan;
-}
