@@ -1,39 +1,39 @@
 /* comments beginnen met een "/*" en eindigen met het sterretje eerst en de / als laatst * */
 
 ul {
-  list-style-type: none;
+  list-style-type: none; /* de huidige stijl van de unordered list moet weg zodat de stijl gemaakt kan worden */
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #333333; /* de achtergrondkleur is in hex waarde gegeven */
 }
 
 li {
-  float: left;
+  float: left; /* de styling is naar links, dit betekent dus dat de blokken zo veel mogelijk naar links worden verplaatst */
 }
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 16px;
-  text-decoration: none;
+li a { /* dit is het blok die het menu maakt */
+  display: block; /* de vorm van het blok, kan bijv ook een rechthoek zijn */
+  color: white; /* kleur van de tekst */
+  text-align: center; /* waar komt de tekst in het blok */
+  padding: 16px; /* de ruimte er omheen */
+  text-decoration: none; /* decoratie van de tekst op none zetten, zodat huidige decoratie ongedaan wordt gemaakt */
 }
 
-li a:hover {
-  background-color: #111111;
-  color: green;
+li a:hover { /* als je hovert over de blokken heen wordt dit getriggerd */
+  background-color: #111111; /* de achtergrondkleur van het blok wordt aangepast */
+  color: green; /* de kleur van de tekst wordt aangepast dit kan door een hex code, rgb, of een standaard gezetta waarde zoals green in te typen */
 }
 
 
 
-h1 {
-    text-align: left;
-    color: darkgreen;
+h1 { /* alle head 1 wordt hiermee gedecoreerd */
+    text-align: left; /* de head wordt zo veel mogelijk uitgelijnd naar links */
+    color: darkgreen; /* de kleur van de head is donkergroen */
 }
 
-h2 {
-  text-align: left;
-  color: rgb(255,0,0);
+h2 { /* alle head 2 wordt hiermee gedecoreerd */
+  text-align: left; /* de head 2 wordt links uitgelijnd */
+  color: rgb(255,0,0); /* de kleur van head 2 heeft een red: 255/255 waarde, green: 0/255 waarde, blue: 0/255 waarde */
 }
 
