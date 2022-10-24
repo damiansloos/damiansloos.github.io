@@ -44,3 +44,11 @@ a {
 a:hover {
   color: darkblue;
 }
+
+a:visited {
+  color: purple;
+}
+
+a:active {
+  color: cyan;
+}
