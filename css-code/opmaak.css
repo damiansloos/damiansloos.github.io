@@ -35,3 +35,12 @@ h1 {
 h2 {
   text-align: left;
   color: rgb(255,0,0);
+}
+
+a {
+  color: darkgreen;
+}
+
+a:hover {
+  color: darkblue;
+}
