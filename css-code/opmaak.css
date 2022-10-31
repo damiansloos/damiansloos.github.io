@@ -26,15 +26,15 @@ li a:hover { /* als je hovert over de blokken heen wordt dit getriggerd */
 }
 
 p1 {
-  font-size: 20px; /* de font size is de grootte van de letters in de tekst */
+  font-size: 18px; /* de font size is de grootte van de letters in de tekst */
 }
 
 p2 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 p3 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 h1 { /* alle head 1 wordt hiermee gedecoreerd */
