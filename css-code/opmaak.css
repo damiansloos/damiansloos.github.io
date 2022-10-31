@@ -25,8 +25,16 @@ li a:hover { /* als je hovert over de blokken heen wordt dit getriggerd */
   color: green; /* de kleur van de tekst wordt aangepast dit kan door een hex code, rgb, of een standaard gezetta waarde zoals green in te typen */
 }
 
-p {
-  font-size: 60px; /* de font size is de grootte van de letters in de tekst */
+p1 {
+  font-size: 20px; /* de font size is de grootte van de letters in de tekst */
+}
+
+p2 {
+  font-size: 20px;
+}
+
+p3 {
+  font-size: 20px;
 }
 
 h1 { /* alle head 1 wordt hiermee gedecoreerd */
