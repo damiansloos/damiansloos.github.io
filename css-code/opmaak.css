@@ -25,7 +25,9 @@ li a:hover { /* als je hovert over de blokken heen wordt dit getriggerd */
   color: green; /* de kleur van de tekst wordt aangepast dit kan door een hex code, rgb, of een standaard gezetta waarde zoals green in te typen */
 }
 
-
+p {
+  font-size: 60px; /* de font size is de grootte van de letters in de tekst */
+}
 
 h1 { /* alle head 1 wordt hiermee gedecoreerd */
     text-align: left; /* de head wordt zo veel mogelijk uitgelijnd naar links */
@@ -37,7 +39,4 @@ h2 { /* alle head 2 wordt hiermee gedecoreerd */
   color: rgb(255,0,0); /* de kleur van head 2 heeft een red: 255/255 waarde, green: 0/255 waarde, blue: 0/255 waarde */
 }
 
-p {
-  font-size: 60px; /* de font size is de grootte van de letters in de tekst */
-}
 
