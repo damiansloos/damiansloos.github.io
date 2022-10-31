@@ -38,5 +38,5 @@ h2 { /* alle head 2 wordt hiermee gedecoreerd */
 }
 
 p {
-  font-size: 20px;
+  font-size: 28px; /* de font size is de grootte van de letters in de tekst */
 }
