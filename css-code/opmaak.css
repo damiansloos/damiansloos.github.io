@@ -37,14 +37,7 @@ h2 { /* alle head 2 wordt hiermee gedecoreerd */
   color: rgb(255,0,0); /* de kleur van head 2 heeft een red: 255/255 waarde, green: 0/255 waarde, blue: 0/255 waarde */
 }
 
-p1 {
-  font-size: 28px; /* de font size is de grootte van de letters in de tekst */
+p {
+  font-size: 20px; /* de font size is de grootte van de letters in de tekst */
 }
 
-p2 {
-  font-size: 28px;
-}
-
-p3 {
-  font-size: 28px;
-}
